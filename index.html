@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+		<link rel="stylesheet" href="style.css">
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<script>
+			$(window).on('scroll',function(){
+				if($(window).scrollTop())
+				{
+					$('nav').addClass('black');
+				}
+				else
+				{
+					$('nav').removeClass('black');
+				}
+			})
+		</script>
+	</head>
+	<body>
+		<nav>
+			<div class="logo">
+				<img src="a.jpg" alt="">
+			</div>
+			<ul>
+				<li><a href="#" class="active">Home</a></li>
+				<li><a href="#">failure</a></li>
+				<li><a href="#">system</a></li>
+				<li><a href="#">register</a></li>
+				<li><a href="#">about</a></li>
+				<li><a href="#">contact</a></li>
+			</ul>
+		</nav>
+	<section class="sec1"></section>
+	<section class="sec2">
+		<div  class="content">
+			<h1>This Is My Article</h1>
+			An article (with the linguistic glossing abbreviation art) is a word that is used with a noun (as a standalone word or a prefix or suffix) to specify grammatical definiteness of the noun, and in some languages extending to volume or numerical scope.
+			The articles in English grammar are the and a/an, and in certain contexts some. "An" and "a" are modern forms of the Old English "an", which in Anglian dialects was the number "one" (compare "on" in Saxon dialects) and survived into Modern Scots as the number "owan". Both "on" (respelled "one" by the Norman language) and "an" survived into Modern English, with "one" used as the number and "an" ("a", before nouns that begin with a consonant sound) as an indefinite article.
+			In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, definite or indefinite, as an attribute (similar to the way many languages express every noun with a certain grammatical number—singular or plural—or a grammatical gender). Articles are among the most common words in many languages; in English, for example, the most frequent word is the.[3]
+		</div>
+	</section>
+<section class="sec3"></section>
+<section class="sec4"></section>
+<section class="sec5"></section>
+<form action="login3.php" action="post">
+<div class="detail">
+	<fieldset>
+	<legend>Enter details</legend>
+	<div class="tab">
+		<table>
+			<tr>
+				<td style="color: red;">Name:-</td>
+				<td><input type="text" placeholder="Enter a Name..." name="username"></td>
+			</tr>
+			<tr>
+				<td style="color:green">Email:-</td>
+				<td><input type="email" placeholder="Enter a Email..." name="email"></td>
+			</tr>
+			<tr>
+				<td style="color: #021F14">Select city:-</td>
+				<td class="s"><select name="city">
+					<option select hidden value="">Select city</option>
+					<option value="Ranchi">Ranchi</option>
+					<option value="Bokaro">Bokaro</option>
+					<option value="Hazaribag">Hazaribag</option>
+					<option value="Koderma">Koderma</option>
+					<option value="Gridhi">Gridhi</option>
+					<option value="Daltonganj">Daltonganj</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td style="color: gray" >Gender:-</td>
+				<td>
+					<input type="radio" name="gender" value="m">male
+					<input type="radio" name="gender" value="f">Female
+					<input type="radio" name="gender" value="o">Other
+				</td>
+			</tr>
+			<tr>
+				<td style="color: #095991">Phone No:-</td>
+				<td class="n">
+					<select name="phoneCode" id="">
+						<option select hidden value="">Select code</option>
+						<option value="91">+91</option>
+						<option value="45">+45</option>
+						<option value="54">+54</option>
+						<option value="28">+28</option>
+						<option value="89">+89</option>
+						<option value="67">+67</option>
+						<option value="27">+27</option>
+					</select>
+					<input type="phone" name="phone" placeholder="9912******">
+				</td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="" value="submit"></td>
+			</tr>
+		</table>
+	</div>
+	</fieldset>
+</div>
+</form>
+<footer style="background: black; color: #eee; text-align: center; height: 40px;" >@Copyright 2019</footer>
+</body>
+</html>
